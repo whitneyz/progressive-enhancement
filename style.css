@@ -1,5 +1,5 @@
 p {
-    font-family: Arial, Serif;
+    font-family: Arial, Serif, serif;
     letter-spacing: 2px;
     color: darkgreen;
 
@@ -20,6 +20,12 @@ body {
     max-width: 90%;
     margin: auto;
     font-size: 100%;
+    background: -webkit-linear-gradient(44deg, rgb(22, 155, 237), rgb(20, 85, 87));
+    background: linear-gradient(44deg, rgb(22, 155, 237), rgb(20, 85, 87));
+    background-image: url("grey_colored_sand__66647.1454610827.1280.850.jpg");
+    background-position: bottom right;
+    background-size: cover;
+
 
 }
 
@@ -27,4 +33,10 @@ blockquote {
     max-width: 50%;
     margin: auto;
     font-size: 160%;
+    background-color: #eeeeee;
+    padding-left: 3px;
+    padding-left: 30px;
+    padding-top: 80px;
+    padding-bottom: 80px;;
+
 }
