@@ -1,8 +1,13 @@
 p {
     font-family: Arial, Serif, serif;
     letter-spacing: 2px;
-    color: darkgreen;
+    color: darkgrey;
 
+
+}
+
+.first-p {
+    font-weight: bold;
 }
 
 /* visited link */
@@ -20,23 +25,71 @@ body {
     max-width: 90%;
     margin: auto;
     font-size: 100%;
-    background: -webkit-linear-gradient(44deg, rgb(22, 155, 237), rgb(20, 85, 87));
-    background: linear-gradient(44deg, rgb(22, 155, 237), rgb(20, 85, 87));
     background-image: url("grey_colored_sand__66647.1454610827.1280.850.jpg");
     background-position: bottom right;
     background-size: cover;
+    font-family: 'Open Sans', sans-serif;
 
 
 }
 
-blockquote {
-    max-width: 50%;
-    margin: auto;
+.goodwords, .badwords {
+    text-transform: capitalize;
+}
+
+.goodwords {
+    color: green;
+}
+
+.badwords {
+    color: red;
+}
+
+tr:nth-child(even) {
+    background: gray;
+}
+
+tr:nth-child(odd) {
+    background: wheat;
+}
+
+q {
+    width: 50%;
+    margin: 80px auto;
     font-size: 160%;
     background-color: #eeeeee;
-    padding-left: 3px;
-    padding-left: 30px;
-    padding-top: 80px;
-    padding-bottom: 80px;;
+    padding: 30px;
+    font-style: italic;
+    display: block;
 
+}
+
+img {
+    float: right;
+    width: 70%;
+}
+
+section {
+    width: 100%;
+}
+
+section::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.farmer {
+    border-left: 3px red dashed;
+
+}
+
+.villagers {
+    border-left: 3px green dashed;
+
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
