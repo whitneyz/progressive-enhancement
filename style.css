@@ -1,26 +1,8 @@
-p {
-    font-family: Arial, Serif, serif;
-    letter-spacing: 2px;
-    color: darkgrey;
-
-
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-
-.first-p {
-    font-weight: bold;
-}
-
-/* visited link */
-a:visited {
-    color: rebeccapurple;
-}
-
-/* mouse over link */
-a:hover {
-    color: mediumvioletred;
-}
-
-/* max width of 90% */
 body {
     max-width: 90%;
     margin: auto;
@@ -29,30 +11,40 @@ body {
     background-position: bottom right;
     background-size: cover;
     font-family: 'Open Sans', sans-serif;
-
-
 }
+p {
+    font-family: Arial, Serif, serif;
+    letter-spacing: 2px;
+    color: #222831;
+}
+.first-p {
+    font-weight: bold;
+}
+/* visited link */
+a:visited {
+    color: rebeccapurple;
+}
+/* mouse over link */
+a:hover {
+    color: mediumvioletred;
+}
+/* max width of 90% */
 
 .goodwords, .badwords {
     text-transform: capitalize;
 }
-
 .goodwords {
     color: green;
 }
-
 .badwords {
     color: red;
 }
-
 tr:nth-child(even) {
     background: gray;
 }
-
 tr:nth-child(odd) {
     background: wheat;
 }
-
 q {
     width: 50%;
     margin: 80px auto;
@@ -61,35 +53,22 @@ q {
     padding: 30px;
     font-style: italic;
     display: block;
-
 }
-
 img {
     float: right;
     width: 70%;
 }
-
 section {
     width: 100%;
 }
-
 section::after {
     content: "";
     clear: both;
     display: table;
 }
-
 .farmer {
     border-left: 3px red dashed;
-
 }
-
 .villagers {
     border-left: 3px green dashed;
-
-}
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
 }
