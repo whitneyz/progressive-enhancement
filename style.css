@@ -1,0 +1,16 @@
+p {
+    font-family: Arial, Serif;
+    letter-spacing: 2px;
+    color: darkgreen;
+
+}
+
+/* visited link */
+a:visited {
+    color: rebeccapurple;
+}
+
+/* mouse over link */
+a:hover {
+    color: mediumvioletred;
+}
