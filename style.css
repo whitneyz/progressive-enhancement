@@ -14,3 +14,17 @@ a:visited {
 a:hover {
     color: mediumvioletred;
 }
+
+/* max width of 90% */
+body {
+    max-width: 90%;
+    margin: auto;
+    font-size: 100%;
+
+}
+
+blockquote {
+    max-width: 50%;
+    margin: auto;
+    font-size: 160%;
+}
